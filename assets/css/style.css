@@ -3,13 +3,14 @@
 body {
         font-family: Mochiy Pop P One, sans-serif;
         font-weight:300;
-        color: #3a3a3a;
+        color: #300000;
+        text-align: center;
 }
 
 /* header and logo*/
 
 .logo {
-    height: 600px;
+    height: 450px;
     width: 100%;
     background-image: url('../images/Design1.jpg');
     background-repeat: no-repeat;
@@ -29,7 +30,7 @@ body {
 /* nav-bar links */
 
 #nav-bar {
-    position: fixed;
+    position: absolute;
     top: 0;
     letter-spacing: 1px;
     color: #000000;
@@ -56,3 +57,36 @@ body {
  #nav-bar a:hover {
     border-bottom: 1px solid #3a3a3a;
  }
+
+ /* who are we section */
+
+ .who-are-we{
+     letter-spacing: 2px;
+ }
+ 
+ 
+ #dice-image {
+     background-image: url('../images/dice\ image.jpeg');
+     height: 350px;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position:left 200px bottom 65px;
+}
+
+#controller-image {
+     background-image: url('../images/ps5\ controller.jpg');
+     background-size: contain;
+     height: 300px;
+     width: 100%;
+     margin: 0 auto;
+     background-repeat: no-repeat;
+     background-position:right;
+}
+
+
+
+
+
+
+
+
