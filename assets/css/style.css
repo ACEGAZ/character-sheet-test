@@ -116,8 +116,16 @@ body {
      width: 50%;
  }
 
-
- #dice-image {
+ #d-d-games p {
+    position: absolute;
+    top: 140%;
+    right: 25%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+ }
+ 
+    #dice-image {
      background-image: url('../images/dice\ image.jpeg');
      height: 300px;
      margin: 0 auto;
