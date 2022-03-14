@@ -7,52 +7,15 @@
     <meta name="description" content="Couch co-op resturant for information and booking">
     <meta name="keywords" content="Couch co-op, resturant, gaming for people in hastings, UK">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Couch Co-op</title> 
+    <title>Character sheet</title> 
 </head>
 
 <body>
-    <header>
-    <div class="logo">
-    <h1> Couch Co-op</h1>
-    </div>
-<nav id="nav-bar">
-    <ul>
-      <li>
-        <a href="index.html" class="active">Home</a>
-    </li>
-    <li>
-        <a href="menu.html">Menu</a>
-    </li>
-    <li>
-        <a href="book-a-table.html">Book a table</a>
-    </li>
-</ul>
-    
-</nav>
-</header>
+  <input type="number" min="1" max="5" id="strength" value="1"> 
 
-<section class="who-are-we">
-    <h2>Who are we?</h2>
-    <p>Couch Co-op is a family friendly resturant that serves great food and lets you play games with your friends and family.</p>
-    <p>We offer a range of console & D&D games to play while you eat.</p>
-</section>
+  <input type="submit" id="dice" value="Roll" onclick="result()">
 
-<br>
+  <span id="result"></span>
 
-<section id="console-games">
-    <div id="controller-image"></div>
-    <div id="controller-text">
-    <h2>Console Games</h2>
-</div>
-    <p>we have the latest shooters, <br>RPG's, action adventiures and hack and slash games</p>
-</section>
-
-<section id="d-d-games">
-    <div id="dice-image"></div>
-    <div id="dice-text">
-    <h2>D&d Games</h2>
-</div>
-    <p>We have tables set up for all kinds of Table-top RPG's</p>
-
-</section>
+  <script src="assets/js/script.js"></script>
 </body>
