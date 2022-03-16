@@ -1,2 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
+#logo {
+  width: 500px;
+}
+
+input {
+    text-align: center;
+}
+
+input[type='number']{
+    width: 25px;
+}
+
+.stats-skills-wrapper {
+    display: flex;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#stats-skills {
+    letter-spacing: 1px;
+}
+
+
+#stats-skills, span {
+    margin-left: 3px;
+}
+
+#dexterity-stats-skills {
+    margin-left: 10px;
+}

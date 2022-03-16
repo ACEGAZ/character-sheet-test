@@ -11,11 +11,137 @@
 </head>
 
 <body>
-  <input type="number" min="1" max="5" id="strength" value="1"> 
 
-  <input type="submit" id="dice" value="Roll" onclick="result()">
+  
+  <img id="logo" src="/assets/images/potentia heading.jpg">
 
-  <span id="result"></span>
+  <!--Character stats-->
+  <section id="stats-skills">
+  <div class="stats-skills-wrapper">
+    <!--Character strength stat and strength skills-->
+    <div id="strength-stats-skills">
+  <span>Strength</span>
+  
+  <input type="number" size="number" min="1" max="5" id="strength" value="1"> 
 
-  <script src="assets/js/script.js"></script>
+  <input type="submit"  value="Roll" onclick="strengthResult()">
+
+  <span id="strength-roll"></span>
+
+  <div>
+  <span>Vasara</span>
+
+<input type="number" min="1" max="5" id="vasara" value="1">
+
+  <input type="submit"  value="Roll" onclick="vasaraResult()">
+
+  <span id="vasara-roll"></span>
+</div>
+</div>
+
+<div id="dexterity-stats-skills">
+  <!--Character dexterity-->
+  <span>Dexterity</span>
+  
+  <input type="number" min="1" max="5" id="dexterity" value="1"> 
+
+  <input type="submit"  value="Roll" onclick="dexResult()">
+
+  <span id="dex-roll"></span>
+</div>
+
+<!--Character perception-->
+
+<div>
+
+<span>Perception</span>
+
+<input type="number" min="1" max="5" id="perception" value="1"> 
+
+  <input type="submit"  value="Roll" onclick="perResult()">
+
+  <span id="per-roll"></span>
+</div>
+
+<!--Character vitality-->
+<div>
+<span>Vitality</span>
+
+<input type="number" min="1" max="5" id="vitality" value="1"> 
+
+  <input type="submit"  value="Roll" onclick="vitResult()">
+
+  <span id="vit-roll"></span>
+
+</div>
+</div>
+<!--Character stamina-->
+<div class="stats-skills-wrapper">
+<div>
+
+<span>Stamina</span>
+
+<input type="number" min="1" max="5" id="stamina" value="1"> 
+
+  <input type="submit"  value="Roll" onclick="staResult()">
+
+  <span id="sta-roll"></span>
+
+</div>
+
+<!--Character charisma-->
+
+<div>
+
+<span>Charisma</span>
+
+<input type="number" min="1" max="5" id="charisma" value="1"> 
+
+  <input type="submit"  value="Roll" onclick="chaResult()">
+
+  <span id="cha-roll"></span>
+
+</div>
+<!--Character intelligence-->
+
+<div>
+
+<span>Intelligence</span>
+
+<input type="number" min="1" max="5" id="intelligence" value="1"> 
+
+  <input type="submit"  value="Roll" onclick="intResult()">
+
+  <span id="int-roll"></span>
+
+</div>
+
+<!--Character willpower-->
+
+<div>
+
+<span>willpower</span>
+
+<input type="number" min="1" max="5" id="willpower" value="1"> 
+
+  <input type="submit"  value="Roll" onclick="willResult()">
+
+  <span id="will-roll"></span>
+
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+</section>
+ 
+
+<script src="assets/js/script.js"></script>
 </body>
