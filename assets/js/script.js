@@ -281,7 +281,7 @@ function warAxesResult() {
   document.getElementById("war-axes-roll").innerHTML = warAxesDiceRoll()
 }
 
-//adds short bows axes input and dexterity value to a 10 sided die roll
+//adds short bows input and dexterity value to a 10 sided die roll
 function shortBowsDiceRoll() {
   return document.getElementById("short-bows").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
 }
@@ -290,6 +290,116 @@ function shortBowsDiceRoll() {
 function shortBowsResult() {
   
   document.getElementById("short-bows-roll").innerHTML = shortBowsDiceRoll()
+}
+
+//adds long bows input and dexterity value to a 10 sided die roll
+function longBowsDiceRoll() {
+  return document.getElementById("long-bows").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of long bows + dexterity + a 10 sided dice roll to a html span
+function longBowsResult() {
+  
+  document.getElementById("long-bows-roll").innerHTML = longBowsDiceRoll()
+}
+
+//adds throwing input and dexterity value to a 10 sided die roll
+function throwingDiceRoll() {
+  return document.getElementById("throwing").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of throwing + dexterity + a 10 sided dice roll to a html span
+function throwingResult() {
+  
+  document.getElementById("throwing-roll").innerHTML = throwingDiceRoll()
+}
+
+//adds martial arts input and dexterity value to a 10 sided die roll
+function martialArtsDiceRoll() {
+  return document.getElementById("martial-arts").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of martial arts + dexterity + a 10 sided dice roll to a html span
+function martialArtsResult() {
+  
+  document.getElementById("martial-arts-roll").innerHTML = martialArtsDiceRoll()
+}
+
+//adds metal claws input and dexterity value to a 10 sided die roll
+function metalClawsDiceRoll() {
+  return document.getElementById("metal-claws").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of metal claws + dexterity + a 10 sided dice roll to a html span
+function metalClawsResult() {
+  
+  document.getElementById("metal-claws-roll").innerHTML = metalClawsDiceRoll()
+}
+
+//adds stealth input and dexterity value to a 10 sided die roll
+function stealthDiceRoll() {
+  return document.getElementById("stealth").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of stealth + dexterity + a 10 sided dice roll to a html span
+function stealthResult() {
+  
+  document.getElementById("stealth-roll").innerHTML = stealthDiceRoll()
+}
+
+//adds lockpicking input and dexterity value to a 10 sided die roll
+function lockpickingDiceRoll() {
+  return document.getElementById("lockpicking").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of lockpicking + dexterity + a 10 sided dice roll to a html span
+function lockpickingResult() {
+  
+  document.getElementById("lockpicking-roll").innerHTML = lockpickingDiceRoll()
+}
+
+//adds dancing input and dexterity value to a 10 sided die roll
+function dancingDiceRoll() {
+  return document.getElementById("dancing").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of dancing + dexterity + a 10 sided dice roll to a html span
+function dancingResult() {
+  
+  document.getElementById("dancing-roll").innerHTML = dancingDiceRoll()
+}
+
+//adds riding input and dexterity value to a 10 sided die roll
+function ridingDiceRoll() {
+  return document.getElementById("riding").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of riding + dexterity + a 10 sided dice roll to a html span
+function ridingResult() {
+  
+  document.getElementById("riding-roll").innerHTML = ridingDiceRoll()
+}
+
+//adds dodge input and dexterity value to a 10 sided die roll
+function dodgeDiceRoll() {
+  return document.getElementById("dodge").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of dodge + dexterity + a 10 sided dice roll to a html span
+function dodgeResult() {
+  
+  document.getElementById("dodge-roll").innerHTML = dodgeDiceRoll()
+}
+
+//adds pickpocket input and dexterity value to a 10 sided die roll
+function pickpocketDiceRoll() {
+  return document.getElementById("pickpocket").valueAsNumber + document.getElementById("dexterity").valueAsNumber + numberGenerator()
+}
+
+// prints results of pickpocket + dexterity + a 10 sided dice roll to a html span
+function pickpocketResult() {
+  
+  document.getElementById("pickpocket-roll").innerHTML = pickpocketDiceRoll()
 }
 
  
